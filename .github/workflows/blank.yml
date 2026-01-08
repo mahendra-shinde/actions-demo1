@@ -22,7 +22,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-        run: echo Hello, world! from Linux Runner
+      - run: echo Hello, world! from Linux Runner
 
   job-2:
     # The type of runner that the job will run on
@@ -32,5 +32,5 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-        run: echo Hello, world! from Windows Runner
+      - run: echo Hello, world! from Windows Runner
 
